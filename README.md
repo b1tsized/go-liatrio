@@ -31,7 +31,7 @@ The default port API is bound to is on port `5000`. You can update this by editi
 4. Run the Docker Container:
 
     ```bash
-    docker run -d -p 8080:5000 liatrio
+    docker run -d -p 80:5000 liatrio
     ```
 5. `curl` your local machine to see if you get a valid response:
 
